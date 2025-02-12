@@ -1,0 +1,18 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: Outfit;
+}
+
+img {
+    width: 400px;
+    border-radius: 25px;
+}
+
+.p1 {
+    font-weight: 700;
+}
+
+.p2 {
+    font-weight: 400;
+}
