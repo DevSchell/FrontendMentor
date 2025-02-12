@@ -24,7 +24,7 @@ Cada projeto tem sua própria pasta contendo os seguintes arquivos:
 ## 🔗 Links Úteis
 
 - [Meu perfil no Frontend Mentor](https://www.frontendmentor.io/profile/DevSchell)
-- [Visite os projetos publicados](lhttps://www.frontendmentor.io/profile/DevSchell/solutions)
+- [Meu perfil no LinkedIn](https://www.linkedin.com/in/leonardoschell/)
 
 ## 💬 Feedback
 
