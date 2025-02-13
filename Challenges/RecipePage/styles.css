@@ -1,8 +1,103 @@
 body {
     background-color: hsl(29, 51%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: outfit;
 }
 
 .main {
     background-color: white;
+    padding: 50px;
+    border-radius: 25px;
+    width: 50%;
 }
 
+img {
+    width: 100%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: young serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.p1 {
+    font-family: outfit;
+    color: hsl(30, 10%, 34%);
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(30, 10%, 34%);
+    padding: 10px;
+    font-size: 25px;
+}
+
+.prep-time h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: young serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.ingredients {
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions{
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    font-size: 20px;
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.p2 {
+    color:  hsl(30, 10%, 34%);
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    color:  hsl(30, 10%, 34%);
+}
+
+td {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+tr td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+tr:not(:first-child){
+    border-top: 1px solid #ddd;
+}
+
+.attribution {
+    text-align: center;
+    color: hsl(30, 10%, 34%);
+}
