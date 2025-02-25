@@ -22,23 +22,27 @@ html {
     max-width: 100%;
     height: auto;
   }
-
+  
 /* STYLES */
 
 body {
     font-family: work sans;
-
+    background-image: url(assets/images/background-pattern-desktop.svg); /* TODO: Ajeitar imagem de bg */
+    background-repeat: no-repeat;
+    background-color:  hsl(279, 100%, 97%);
 }
 
 .accordion-button {
     color: hsl(292, 42%, 14%);
+    font-weight: 600;
 }
 
 .accordion-body {
-    color: hsl(292, 16%, 49%)
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
 }
 
-.main-container {
+.main-container { /* TODO: aqui tenho arrumar pro card ficar no centro do site e não ocupando o site */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,6 +50,7 @@ body {
     min-height: 100vh;
     text-align: center;
     padding: 20px;
+    border-radius: 25px;
 }
 
 .accordion {
@@ -53,7 +58,9 @@ body {
     max-width: 600px;
 }
 
-h1 {
-    margin-bottom: 20px; /* Dá um espaço entre o título e o acordeão */
+h1 { /* TODO: alterar cor da fonte */
+    margin-bottom: 20px;
+    font-weight: 700;
+    align-items: start;
 }
 
